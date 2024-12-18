@@ -1,0 +1,83 @@
+/* ----------------------- nav -----------  */
+.navbar-expand-lg .navbar-nav .nav-link {
+    transition: all 1s;
+    color: white;
+    font-weight: 600;
+}
+.navbar-expand-lg .navbar-nav .nav-link:hover{
+    color: black;
+}
+nav .new-btn-blue{
+    transition: all 0.3 ease;
+}
+nav .new-btn-blue:hover{
+    color: white;
+    background-color: #0461D5;
+}
+/* --------------- header --------------  */
+#header{
+    background: linear-gradient(rgba(0, 0, 0, 0.778) 0% 100%), url(../images/agency-1.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+.custom-heading {
+    font-size: 100px;
+    font-weight: 900;
+}
+.new-btn-white{
+    transition: all 0.3 ease;
+}
+.new-btn-white:hover{
+    color: black;
+    background-color: #FFFFFF;
+}
+/* ---------------- any slider ----------------  */
+.carousel-indicators [data-bs-target]{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: rgb(121, 114, 114);
+}
+.new-btn-black{
+    transition: all 0.3 ease;
+}
+.new-btn-black:hover{
+    background-color: #333333;
+}
+
+/* ------------------------------ footer ----------  */
+#footer .anchora a,
+#slider-third a{
+    color: #6c757d;
+    transition: all 0.3 ease ;
+}
+#footer .anchora a:hover{
+    color: white; 
+}
+#slider-third a:hover{
+    color: rgb(79, 79, 250);
+}
+/* ----------------------------- copyright -----------  */
+.icon-list i {
+    margin: 0 7px;
+    font-size: 30px;
+    color: #131313;
+}
+.facebook_icon,
+.linkedin_icon,
+.google_icon{
+    transition: all 1s ease;
+}
+.facebook_icon:hover{
+    color: rgb(39, 39, 245);
+    transform: scale(1.2);
+}
+.google_icon:hover{
+    color: rgb(174, 21, 21);
+    transform: scale(1.2);
+}
+.linkedin_icon:hover{
+    color: rgb(131, 131, 246);
+    transform: scale(1.2);
+}
